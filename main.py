@@ -3,12 +3,13 @@ import matplotlib.pyplot as pl
 import wave
 import struct
 import pyaudio
+import GUI
 
 DEFAULT_NOTE = 44100
 # interval_list
 G3 = 196    # Sor(3)
 C4 = 261    # Do
-C4_2 = 277  # 
+C4_2 = 277  # Do#
 D4 = 293    # Re
 D4_2 = 311  # Re#
 E4 = 330    # Mi
